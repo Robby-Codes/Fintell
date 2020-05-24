@@ -1120,17 +1120,27 @@
   opacity: 0.9;
 }
 
+.div-block-21 {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  background-color: #1f1f1f;
+}
+
+.text-block-15 {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 991px) {
-  .nav-links:hover {
-    background-color: #000;
-    color: #fff;
-  }
   .image {
     width: 90%;
     height: 90%;
   }
   .image:hover {
-    background-size: 380px 400px;
+    background-size: 400px 420px;
   }
   .banner-grid-content-wrapper {
     width: 90%;
@@ -1153,7 +1163,7 @@
     width: 300px;
   }
   .image-3:hover {
-    background-size: 350px 250px;
+    background-size: 370px 270px;
   }
   .heading-3 {
     font-size: 25px;
@@ -1188,19 +1198,15 @@
   .go-to-product-overview {
     width: 100px;
   }
-  .go-to-product-overview:hover {
-    width: 100px;
-    margin-bottom: 0px;
-  }
   .image-v2:hover {
-    background-size: 400px 350px;
+    background-size: 420px 370px;
   }
   .image-v4 {
     width: 300px;
     height: 250px;
   }
   .image-v4:hover {
-    background-size: 350px 250px;
+    background-size: 370px 270px;
   }
   .grid-4 {
     padding-right: 50px;
@@ -1232,10 +1238,6 @@
   .go-back-btn {
     width: 120px;
     font-size: 20px;
-  }
-  .go-back-btn:hover {
-    background-color: #34a28d;
-    color: #000;
   }
   .div-block-20 {
     width: 600px;
@@ -1334,7 +1336,7 @@
   .image-3:hover {
     width: 400px;
     height: 300px;
-    background-size: 400px 300px;
+    background-size: 420px 320px;
   }
   .div-block-4 {
     width: 10px;
@@ -1426,7 +1428,7 @@
     background-size: 400px 300px;
   }
   .image-v4:hover {
-    background-size: 400px 300px;
+    background-size: 420px 320px;
   }
   .text-block-13 {
     font-size: 10px;
@@ -1611,6 +1613,9 @@
   .image-v2 {
     width: 250px;
     height: 200px;
+  }
+  .image-v2:hover {
+    background-size: 400px 350px;
   }
   .div-block-v2 {
     padding-right: 0px;
